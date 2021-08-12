@@ -8,10 +8,31 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- navbar  -->
+    <Nav class="wrapper navbar">
+        <!-- Left -->
+        <div class="nav-left"><img src="./img/Logo.png" alt="Logo"></div>
+        <!-- Middle -->
+        <div class="nav-mid">
+            <a href="#contact-area">contact</a>
+            <a href="#testimonial-area">testimonials</a>
+            <a href="#legalization-area">about</a>
+            <a href="#term-area">term</a>
+        </div>
+        <!-- Right -->
+        <div class="nav-right">
+            <img src="./img/search.png" alt="search">
+            <img src="./img/menu.svg"  class="nav-right-toggle "alt="menu" >
+            
+        </div>
+        
+    </Nav>
     <!-- hero section  -->
     <section class="hero-section">
         <div class="hero wrapper">
@@ -52,7 +73,7 @@
     </div>
     </section>
     <!-- legalization area  -->
-    <section class="legalization-area">
+    <section id="legalization-area">
         <div class="legalization wrapper">
             <div class="legal-left">
                 <h2>Why do we help with legalization?</h2>
@@ -87,6 +108,150 @@
             </div>
         </div>
     </section>
+    <!-- acheivement section  -->
+    <section class="achievement-section">
+        <div class="wrapper achievement">
+            <div class="top">
+                <h2>Some count that matters</h2>
+                <p>Our achievement in the journey depicted in numbers</p>
+            </div>
+            <div class="bottom">
+                <div class="bottom-left">
+                    <h2><span class="countfect" data-num="30"></span>
+                        </h2>
+                    <p>clients</p>
+                </div>
+                <div class="bottom-mid">
+                    <h2><span class="countfect" data-num="300"></span>
+                        +</h2>
+                    <p>
+                        Taken business legalities</p>
+                </div>
+                <div class="bottom-right">
+                    <h2><span class="countfect" data-num="8"></span></h2>
+                    <p>years of journey</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonial-area">
+        <div class="testimonial wrapper">
+            <h2>Clients testimonial</h2>
+            <div class="slide_group">
+                <div class="slide">
+                    <div class="slider-box">
+                        <h5>Incredible Experience</h5>
+                        <p>We had an incredible experience working with Landify and were impressed they made such a big difference in only three weeks. Our team is so grateful for the wonderful improvments they made and their ability to get familiar with the concept so quickly.</p>
+                    </div>
+                    <div class="slider-prof">
+                        <div class="slider-left">
+                            <img src="./img/testimonial-img.png" alt="testimonial" />
+                        </div>
+                        <div class="slider-right">
+                            <h5>Anya Tailor Joy</h5>
+                            <p>CEO,SF Industries</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="slide">
+                    <div class="slider-box">
+                        <h5>Incredible Experience</h5>
+                        <p>We had an incredible experience working with Landify and were impressed they made such a big difference in only three weeks. Our team is so grateful for the wonderful improvments they made and their ability to get familiar with the concept so quickly.</p>
+                    </div>
+                    <div class="slider-prof">
+                        <div class="slider-left">
+                            <img src="./img/testimonial-img.png" alt="testimonial" />
+                        </div>
+                        <div class="slider-right">
+                            <h5>Anya Tailor Joy</h5>
+                            <p>CEO,SF Industries</p>
+                        </div>
+                    </div>
+
+                </div>
+            
+            </div>
+        </div>
+    </section>
+    <!-- contact area  -->
+    <section id="contact-area">
+        <div class="contact wrapper">
+            <div class="contact-left">
+                <h2>Complex Questions?</h2>
+                <p>Request for a personalized budget for your legal problem. We will send you a coupe options in 24 hours.You can have free consult, if a our first customer.</p>
+                <button class="btn btn-call"><img src="./img/Call.png"/> Call Now</button>
+            </div>
+            <div class="contact-right">
+                <img src="./img/cta-img.png" alt="cta img" >
+            </div>
+        </div>
+    </section>
+
+    <!-- term area  -->
+    <section id="term-area">
+        <div class="term wrapper">
+            <div class="term-left">
+                <img src="img/Logo-btm.png" alt="logo" />
+            </div>
+            <div class="term-right">
+                <div class="first-row">
+                    <h6>Product</h6>
+                    <ul>
+                        <li>Overview</li>
+                        <li>Features</li>
+                        <li>Tutorials</li>
+                        <li>Pricing</li>
+                        <li>Releases</li>
+                    </ul>
+                </div>
+                <div class="mid-row">
+                    <h6>Company</h6>
+                    <ul>
+                        <li>About</li>
+                        <li>Press</li>
+                        <li>Careers</li>
+                        <li>contact-area</li>
+                        <li>Partners</li>
+                    </ul>
+                </div>
+                <div class="last-row">
+                    <h6>Support</h6>
+                    <ul>
+                        <li>Help Center</li>
+                        <li>Terms of service</li>
+                        <li>Legal</li>
+                        <li>Privacy Policy</li>
+                        <li>Status</li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- footer  -->
+    <footer class="footer-area">
+        <div class="footer wrapper">
+            <div class="footer-left">
+                <p>&copy; 2021 Lawliet.All rights reserved</p>
+            </div>
+            <div class="footer-right">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-dribbble"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js"></script>
+
+
     
 </body>
 </html>
